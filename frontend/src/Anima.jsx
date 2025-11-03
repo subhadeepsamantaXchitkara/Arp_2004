@@ -5,7 +5,7 @@ import './Anima.css';
 // Ensure this path is correct relative to the location of IntroAnimation.js
 import vibeMusic from '../public/vibe-music.mp3'; 
 // --- Configuration and Colors ---
-const NUM_ORBS = 20;
+const NUM_ORBS = 21;
 // Use window.innerWidth only after the component mounts or use a fallback
 const ORBIT_RADIUS = Math.min(200, 200); // Fixed size for simplicity, or use a responsive hook
 const ANIMATION_DURATION = 6.5;
@@ -13,7 +13,7 @@ const ORB_COLORS = [
   '#00FFFF', '#8B008B', '#00FFFF', '#8B008B', '#00FFFF',
   '#8B008B', '#00FFFF', '#8B008B', '#00FFFF', '#8B008B',
   '#00FFFF', '#8B008B', '#00FFFF', '#8B008B', '#00FFFF',
-  '#8B008B', '#00FFFF', '#8B008B', '#00FFFF','#8B008B'
+  '#8B008B', '#00FFFF', '#8B008B', '#00FFFF','#8B008B','#00FFFF'
 ];
 
 // --- Mute Icon Component ---
