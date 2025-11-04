@@ -159,7 +159,7 @@ function BirthdayPage() {
       <audio ref={playlistAudioRef} />
 
       <section className="welcome-section">
-        <h1 className="main-title">A Special Day for a Special Friend</h1>
+        <h1 className="main-title">A Special Day for a Special Person 😊</h1>
         <p className="subtitle">This page is dedicated to celebrating you!</p>
       </section>
 
